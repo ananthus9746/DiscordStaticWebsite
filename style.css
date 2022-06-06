@@ -1,0 +1,478 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    overflow-x: hidden;
+}
+.background{
+    width: 100%;
+    height: 626px;
+    background-color:#293df3;
+    background-image: url("image/cloud.svg");
+    float: left;
+    
+}
+.navigation-bar{
+width: 80%;
+height: 60px;
+margin-left: 10%;
+display: flex;
+
+padding-right: 50px;
+}
+.Logo{
+    margin-top:19px;
+    width: 123px;
+    height: 30px;
+    
+    color: aliceblue;
+    font-size: 10px;
+    padding-top: 9px;
+}
+.nav{
+    margin-top:25px ;
+    display: flex;
+   
+    width: 932px;
+    height: 22px;
+    padding-left: 180px;
+}
+.nav h3{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 22.4PX;
+    color: aliceblue;
+}
+.Login{
+    margin-top: 10px;
+    float: right;
+    border-radius: 30px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 35px;
+    width: 60px;
+    
+}
+.Login-div{
+    margin-top: 5px;
+    margin-left: 199px;
+}
+.text{
+    text-align:center;
+    padding-top: 140px;
+    color: white;
+    width: 800px;
+    margin-left: 270px;
+    
+}
+.text h1{
+    font-size: 76px;
+    font-family: "Ginto Nord", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+
+}
+.text h5{
+    font-size: 16px;
+    font-family: "Ginto Nord", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 27px;
+
+}
+.button{
+    padding-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    width: 700px;
+    
+}
+.icon{
+    height:50px ;
+    width: 50px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 25px;
+   position: relative;
+   left: 55px;
+} 
+.icon-symbol{
+    margin: 15px;
+}
+.button-first{
+    background-color: rgb(254, 255, 255);
+    height:50px ; 
+    margin-right: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 255px;
+    padding-left: 15px;
+}
+.button-second{
+    background-color: rgb(65, 71, 71);
+    height:50px ; 
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 255px;
+}
+.image-left-div{
+    width: 670px;
+    position: relative;
+    bottom: 202px;
+    right: 290px;
+}
+.image-left{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+.image-right-div{
+    width: 550px;
+    float: right;
+    position: relative;
+    bottom: 528px;
+    left: 255px; 
+}
+.image-right{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/*section 1*/
+.second-page{
+    width: 100%;
+    height: 626px;
+    
+    display: flex;
+}
+.second-page-left{
+    width: 50%;
+    height: 626px;
+   
+    float: left;
+
+}
+.second-left-image{
+    
+    width: 670px;
+    height: 450px;
+    padding: px;
+    padding-top: 125px;
+}
+.image-second{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.second-page-right{
+    width: 45%;
+    height: 626px;
+   
+    float: left;
+}
+.right-text{
+    
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    margin: 100px;
+    padding-top: 70px;
+    padding-left: 120px;
+}
+.right-text h1{
+    font-size: 48px;
+    font-family: "Ginto Normal", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    line-height: 50px;
+
+}
+.right-text h5{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32.5px;
+    letter-spacing: normal;
+    color: rgb(110, 111, 112);
+}
+/*Same us top section 3*/
+.third-page{
+    width: 100%;
+    height: 626px;
+    background-color: rgba(243, 243, 250, 0.918);
+    display: flex;
+}
+.third-page-left{
+    width: 50%;
+    height: 626px;
+    
+    float: left;
+
+}
+.third-left-image{
+    
+    width: 670px;
+    height: 450px;
+    padding: px;
+    padding-top: 125px;
+    float: right;
+}
+.image-third{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.third-page-right{
+    width: 50%;
+    height: 626px;
+   
+    float: left;
+}
+.third-right-text{
+    
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+.third-right-text h1{
+    font-size: 48px;
+    font-family: "Ginto Normal", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    line-height: 50px;
+    
+}
+.third-right-text h5{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32.5px;
+    letter-spacing: normal;
+    color: rgb(110, 111, 112);
+    
+}
+/*Same us top section 4*/
+.forth-page{
+    width: 100%;
+    height: 626px;
+    
+    display: flex;
+}
+.forth-page-left{
+    width: 50%;
+    height: 626px;
+   
+    float: left;
+
+}
+.forth-left-image{
+    
+    width: 670px;
+    height: 450px;
+    padding: px;
+    padding-top: 125px;
+}
+.image-forth{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.forth-page-right{
+    width: 45%;
+    height: 626px;
+   
+    float: left;
+}
+.forth-right-text{
+    
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    margin: 100px;
+    padding-top: 70px;
+    padding-left: 120px;
+   
+}
+.forth-right-text h1{
+    font-size: 48px;
+    font-family: "Ginto Normal", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    line-height: 50px;
+
+}
+.forth-right-text h5{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 32.5px;
+    letter-spacing: normal;
+    color: rgb(110, 111, 112);
+    
+}
+.Final{
+    width: 100%;
+    height: 1058px;
+    background-color: rgba(243, 243, 250, 0.918);
+    text-align: center;
+    padding-top: 120px;
+    font-family: "Ginto Nord", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Final h1{
+    font-size: 40px;
+}
+.Final h5{
+    font-size: 16px;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(83, 84, 85);
+    line-height: 30px;
+}
+.final-image-div{
+
+    width: 1000px;
+    height: 500px;
+    margin-left: 195px;
+    margin-top: 70px;
+}
+
+.final-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.Ready{
+    width: 900px;
+    height: 200px;
+   
+    
+    margin-left: 230px;
+    
+}
+.ready-image-stars{
+    
+    width: 530px;
+    height: 70px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.star{
+    height:100%;
+    width: 100%;
+}
+.ready-image-stars h5{
+font-size: 32px;
+position: relative;
+bottom: 40px;
+font-family: "Ginto Normal", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*Download button last*/
+.Download-button{
+    padding-top: 40px;
+    margin-left: 270px;
+    display: flex;
+    width: 700px;
+    
+}
+.Download-icon{
+    height:50px ;
+    width: 50px;
+    background-color: rgb(70, 85, 245);
+    border-radius: 25px;
+    position: relative;
+    left: 55px;
+} 
+.Download-icon-symbol{
+    margin: 15px;
+}
+.Download-button-first{
+    background-color:rgb(70, 85, 245);
+    height:50px ; 
+    margin-right: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 275px;
+    padding-left: 15px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 470px;
+    background-color: rgb(29, 28, 28);
+}
+.social-media{
+    width: 330px;
+    height: 330px;
+    
+    float: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    line-height: 55px;
+    color: white;
+}
+.social-media h1{
+    line-height: 28px;
+    color: #293df3;
+}
+.about-section{
+    width: 900px;
+    height: 320px;
+    float: right;
+    margin-top: 80px;
+}
+.about-section{
+    display: flex;
+    padding: 10PX;
+}
+.list{
+    padding-left: 30px;
+}
+.list h3{
+    line-height: 50px;
+    width: 200px;
+    color: #293df3;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li{
+font-size: 16px;
+ line-height: 30px;
+ list-style: none;
+ color: white;
+ font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.discord-signup{
+    
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(29, 28, 28);
+}
+.disscord-logo{
+    width: 100px;
+    height: 50px;
+    
+    float: left;
+    margin-left: 100px;
+    color: #fffdfa;
+}
+.sign-up{
+    width: 100px;
+    height: 50px;
+    
+    float: right;
+    margin-right: 100px;
+}
+.signup-button{
+margin-top: 10px;
+float: right;
+border-radius: 30px;
+font-size: 13px;
+background-color: rgb(39, 89, 230);
+border: none;
+height: 35px;
+width: 60px;
+color: white;
+}
